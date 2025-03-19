@@ -1,0 +1,94 @@
+*{
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(255, 128, 0, 0.737);
+}
+
+.container{
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    max-width:  825px;
+}
+    
+.card{
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    background: #fff;
+    padding: 0.7rem;
+    box-shadow: 2px 3px 10px rgba(0,0,0.2);
+
+}
+
+.textarea1{
+    margin-left: 10px;
+    margin-right: 100px;
+    width: 100px;
+    height: 50%;
+    resize: none;
+    font:15px Comic Sans MS;
+}
+.textarea2{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 100px;
+    height: 10%;
+    resize: none;
+    font:15px Comic Sans MS;
+}
+
+text{
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.b1{
+    background: #b00000;
+    color: #fff;
+    border-color: #b00000;
+    padding: 1rem 1.5rem;
+    margin-top: 50px;
+}
+.b2{
+    background: #0fb300;
+    color: #fff;
+    border-color: #0fb300;
+    padding: 1rem 1.5rem;
+}
+.b3{
+    background: #0050c0;
+    color: #fff;
+    border-color: #0050c0;
+    padding: 1rem 1.5rem;
+}
+.b4{
+    background: #b00000;
+    color: #fff;
+    border-color: #b00000;
+    padding: 1rem 1.5rem;
+}
+.b5{
+    background: #d77301;
+    color: #fff;
+    border-color: #d77301;
+    padding: 1rem 1.5rem;
+}
+
+.text1{
+    color: purple;
+    font: 20px Comic Sans MS;
+}
+.text2{
+    color: darkgreen;
+    font: 20px Comic Sans MS;
+}
+.text3{
+    color: rgb(110, 28, 28);
+    font: bolder 20px Comic Sans MS;
+}

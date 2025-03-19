@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>	
+		<meta charset="UTF-8" />
+		<meta
+		mame="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+		/>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Interpolation</title>
+        
+        <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+        <div id="therezult"></div>
+		<div class="text3" id="block">Здесь будет значение функции f(x) в указанной точке (x)</div>
+		<text class="text1">Введите координаты точек<br>(x, y):</text>
+		<text class="text2">Введите точку (x), в которой хотите<br> вычислить значение функции:</text>
+		<div class="container">
+			<textarea class="textarea1" id="id_textarea" rows="10" cols="2" placeholder="x, y"></textarea>
+			<textarea class="textarea2" id="id_text" rows="2" cols="2" placeholder="x"></textarea>
+			<div class="card">
+				<canvas id="chart"></canvas>
+			</div> 
+		</div>
+		<button class="b1" id="id_button1">Убрать Интерполяцию</button>
+		<button class="b2" id="id_button2">Линейная Интерполяция</button>
+		<button class="b3" id="id_button3">Квадратическая Интерполяция</button>
+		<button class="b4" id="id_button4">Кубическая Интерполяция</button>
+		<button class="b5" id="id_button5">Интерполяция полиномом Ньютона</button>
+		</script>
+		<script src="app.js"></script>
+	</body>
+</html>
+ 
